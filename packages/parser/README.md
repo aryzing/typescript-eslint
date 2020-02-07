@@ -81,7 +81,7 @@ Enable parsing JSX when `true`. More details can be found [here](https://www.typ
 
 Default `undefined`.
 
-This option allows you to provide a path to your project's `tsconfig.json`. **This setting is required if you want to use rules which require type information**. You may want to use this setting in tandem with the `tsconfigRootDir` option below.
+This option allows you to provide a path to your project's `tsconfig.json`. **This setting is required if you want to use rules which require type information**. Relative paths are interpreted relative to the current working directory, so you may want to use this setting in tandem with `tsconfigRootDir` option below.
 
 - Accepted values:
 
